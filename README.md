@@ -96,19 +96,21 @@ Number of devices                                 1
   
  2.https://www.cnblogs.com/kluan/p/6027490.html
  ================================================
-#1. 安装GO
+
+
+# 1. 安装GO
 
 sudo apt-get install golang-go
-#2. 设置Go环境变量
+# 2. 设置Go环境变量
 
-##打开终端，输入命令：
+ 打开终端，输入命令：
 
 export GOROOT=$HOME/go
 export PATH=$GOROOT/bin:$PATHU
-#3. 设置go代码目录
+# 3. 设置go代码目录
 
 sudo mkdir Applications/go
-#4.  测试安装
+# 4.  测试安装
 
 完成安装后，新建一个文档来测试环境是否搭建成功:
 
