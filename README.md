@@ -1,10 +1,11 @@
 # colab-for-ccminer
 1.https://wiki.tiker.net/OpenCLHowTo
-
+========================================
 Debian
 Debian packages OpenCL very well and makes installing this much easier.
 
 Packages of ICD loaders: (you just need one of these)
+-------------------------------------------------------
 
 amd-libopencl1 (recommended)
 
@@ -13,7 +14,7 @@ nvidia-libopencl1
 ocl-icd-libopencl1 (the reference implementation)
 
 Packages of ICDs:
-
+-------------------
 amd-opencl-icd
 
 nvidia-opencl-icd
@@ -21,7 +22,7 @@ nvidia-opencl-icd
 beignet
 
 Package for headers:
-
+------------------------
 opencl-headers
 
 I would recommend using the latest versions (perhaps from the 'experimental' repository). Those are usually the least buggy.
@@ -94,20 +95,20 @@ Number of devices                                 1
   Warp size (NV)                                  32
   
  2.https://www.cnblogs.com/kluan/p/6027490.html
- 
- 1. 安装GO
+ ================================================
+#1. 安装GO
 
 sudo apt-get install golang-go
-2. 设置Go环境变量
+#2. 设置Go环境变量
 
-打开终端，输入命令：
+##打开终端，输入命令：
 
 export GOROOT=$HOME/go
 export PATH=$GOROOT/bin:$PATHU
-3. 设置go代码目录
+#3. 设置go代码目录
 
 sudo mkdir Applications/go
-4.  测试安装
+#4.  测试安装
 
 完成安装后，新建一个文档来测试环境是否搭建成功:
 
