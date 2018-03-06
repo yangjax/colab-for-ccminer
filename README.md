@@ -133,3 +133,6 @@ package main
 或者go build helloWorld.go，将生成helloWorld.sh，./helloWorld也可以运行。
 
 Hellow World! %!(EXTRA string=go1.6.2)
+
+
+3.https://github.com/bitcoinx-project/gominer
